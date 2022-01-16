@@ -88,9 +88,14 @@ button:hover {
   height: 100%;
 }
 
-footer {
-    display: flex;
-    padding: 2em 3em;
+.footer {
+  position: static;  
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 250px;
+  
 }
 
 @media screen and (max-width: 768px) {
